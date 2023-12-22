@@ -1,0 +1,17 @@
+{
+  "name": "dydx-v4-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.32.2",
+    "@dydxprotocol/v4-client-js": "^1.0.12",
+    "@dydxprotocol/v4-proto": "^2.0.0",
+    "lodash": "^4.17.21"
+  }
+}
